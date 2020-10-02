@@ -1,11 +1,11 @@
 #!/bin/python3
-
+import numpy
 import math
 import os
 import random
 import re
 import sys
-
+#add more libs
 # Complete the designerPdfViewer function below.
 def designerPdfViewer(h, word):
 
