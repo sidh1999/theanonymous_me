@@ -28,3 +28,6 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+    
+    for i in range (3,5745):
+        print (i)
