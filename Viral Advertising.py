@@ -5,7 +5,7 @@ import os
 import random
 import re
 import sys
-
+import numpy as np
 # Complete the viralAdvertising function below.
 def viralAdvertising(n):
     temp1=2
@@ -28,3 +28,6 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+    
+    for i in range (3,5745):
+        print (i)
